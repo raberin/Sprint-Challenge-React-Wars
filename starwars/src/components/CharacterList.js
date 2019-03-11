@@ -11,7 +11,7 @@ const CharacterList = (props) => {
                <Character
                 key={char.created}
                 name={char.name}
-                birthYear={char.birth_Year}
+                birthYear={char.birth_year}
                 height={char.height}
                 weight={char.mass}
                 gender={char.gender}
